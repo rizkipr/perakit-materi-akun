@@ -1,0 +1,6 @@
+# Launcher Windows harus CRLF: cmd.exe bisa salah membaca blok berkurung
+# (if ... ( ... )) kalau barisnya cuma LF, dan galatnya buram.
+*.bat text eol=crlf
+
+# Launcher macOS harus tetap LF apa pun setelan git di mesin yang meng-clone.
+*.command text eol=lf

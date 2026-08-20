@@ -1,0 +1,30 @@
+# Kartu jadi — hasil rakitan, bisa dibuat ulang kapan saja.
+# antrean/ sengaja ikut ke git sebagai contoh isian yang tinggal diedit.
+/siap-upload/
+
+# Berkas Photoshop master, 59 MB. Ada di disk pemilik, tidak perlu di git.
+/template-master.psd
+
+# Biner hasil kompilasi potong.swift — sumbernya dilacak, binernya tidak.
+# Kompilasi sekali di tiap salinan repo:
+#   swiftc -O -o mesin/potong mesin/potong.swift
+/mesin/potong
+
+# Biner upscaler Real-ESRGAN, diunduh oleh mesin sendiri saat dibutuhkan
+# (± 27 MB). Sidik jarinya dipatok di poster.py, bukan berkasnya di git.
+mesin/upscaler/
+
+# Screenshot mentah yang tergeletak di akar — data akun asli.
+/*.png
+/*.PNG
+/*.jpg
+/*.jpeg
+/*.JPG
+/*.JPEG
+
+# Artefak lokal Windows
+__pycache__/
+/perakit-materi-akun-main.zip
+
+.DS_Store
+Thumbs.db
