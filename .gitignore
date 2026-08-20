@@ -24,6 +24,7 @@ mesin/upscaler/
 
 # Artefak lokal Windows
 __pycache__/
+.omc/
 /perakit-materi-akun-main.zip
 
 .DS_Store
